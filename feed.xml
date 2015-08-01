@@ -4,10 +4,10 @@
     <title>Booklet</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://knuxus.github.io/</link>
-    <atom:link href="http://knuxus.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 01 Aug 2015 23:59:27 +0100</pubDate>
-    <lastBuildDate>Sat, 01 Aug 2015 23:59:27 +0100</lastBuildDate>
+    <link>http://alexanderkustov.com//booklet/</link>
+    <atom:link href="http://alexanderkustov.com//booklet/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 02 Aug 2015 00:07:05 +0100</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2015 00:07:05 +0100</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -28,8 +28,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 23:41:59 +0100</pubDate>
-        <link>http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll3.html</link>
-        <guid isPermaLink="true">http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll3.html</guid>
+        <link>http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll3.html</link>
+        <guid isPermaLink="true">http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll3.html</guid>
         
         
         <category>jekyll</category>
@@ -56,8 +56,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 23:41:59 +0100</pubDate>
-        <link>http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll.html</guid>
+        <link>http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -84,8 +84,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 23:41:59 +0100</pubDate>
-        <link>http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://knuxus.github.io/jekyll/update/2015/08/01/welcome-to-jekyll.html</guid>
+        <link>http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -112,8 +112,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 23:41:59 +0100</pubDate>
-        <link>http://knuxus.github.io/jekyll/update/2015/08/01/consider-phlebas.html</link>
-        <guid isPermaLink="true">http://knuxus.github.io/jekyll/update/2015/08/01/consider-phlebas.html</guid>
+        <link>http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/consider-phlebas.html</link>
+        <guid isPermaLink="true">http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/consider-phlebas.html</guid>
         
         
         <category>jekyll</category>
@@ -140,8 +140,8 @@
 
 </description>
         <pubDate>Sat, 01 Aug 2015 23:41:59 +0100</pubDate>
-        <link>http://knuxus.github.io/jekyll/update/2015/08/01/Siddhartha.html</link>
-        <guid isPermaLink="true">http://knuxus.github.io/jekyll/update/2015/08/01/Siddhartha.html</guid>
+        <link>http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/Siddhartha.html</link>
+        <guid isPermaLink="true">http://alexanderkustov.com//booklet/jekyll/update/2015/08/01/Siddhartha.html</guid>
         
         
         <category>jekyll</category>
