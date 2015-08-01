@@ -309,6 +309,19 @@ pre {
       .post-content h4 {
         font-size: 18px; } }
 
+.grid-item {
+  position: absolute;
+  transition: .3s ease-in-out;
+  border: 1px solid #ccc;
+  min-height: 300px;
+  width: 243px;
+  padding: 5px;
+  border-radius: 4px; }
+
+.grid {
+  margin: 0 auto;
+  position: relative; }
+
 /**
  * Syntax highlighting styles
  */

@@ -6,13 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Your awesome title</title>
+  <title>Booklet</title>
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
-  <link rel="stylesheet" href="/booklet/css/main.css">
-  <link rel="canonical" href="http://knuxus.github.io/booklet/">
-  <link rel="alternate" type="application/rss+xml" title="Your awesome title" href="http://knuxus.github.io/booklet/feed.xml" />
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://knuxus.github.io/">
+  <link rel="alternate" type="application/rss+xml" title="Booklet" href="http://knuxus.github.io/feed.xml" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/vendor/css/bootstrap.min.css">
 </head>
 
 
@@ -22,7 +24,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/booklet/">Your awesome title</a>
+    <a class="site-title" href="/">Booklet</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -36,7 +38,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/booklet/about/">About</a>
+          <a class="page-link" href="/about/">About</a>
           
         
           
@@ -53,42 +55,81 @@
 </header>
 
 
-    <div class="page-content">
-      <div class="wrapper">
+    <div class="container">
+
         <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
+  <div class="grid">
     
-      <li>
-        <span class="post-meta">Aug 1, 2015</span>
+      <div class="grid-item">
+
 
         <h2>
-          <a class="post-link" href="/booklet/jekyll/update/2015/08/01/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+          <a class="post-link" href="/jekyll/update/2015/08/01/welcome-to-jekyll3.html">Player of Games</a>
         </h2>
-      </li>
+        <h4>Ian Banks</h4>
+        <span class="post-meta">Added: Aug 1, 2015</span>
+      </div>
     
-  </ul>
+      <div class="grid-item">
 
-  <p class="rss-subscribe">subscribe <a href="/booklet/feed.xml">via RSS</a></p>
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/08/01/welcome-to-jekyll.html">Choose Yourself</a>
+        </h2>
+        <h4>James Altucher</h4>
+        <span class="post-meta">Added: Aug 1, 2015</span>
+      </div>
+    
+      <div class="grid-item">
+
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/08/01/welcome-to-jekyll.html">Eloquent Ruby</a>
+        </h2>
+        <h4>Eloquent Ruby</h4>
+        <span class="post-meta">Added: Aug 1, 2015</span>
+      </div>
+    
+      <div class="grid-item">
+
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/08/01/consider-phlebas.html">Consider Phlebas</a>
+        </h2>
+        <h4>Ian M. Banks</h4>
+        <span class="post-meta">Added: Aug 1, 2015</span>
+      </div>
+    
+      <div class="grid-item">
+
+
+        <h2>
+          <a class="post-link" href="/jekyll/update/2015/08/01/Siddhartha.html">Siddhartha</a>
+        </h2>
+        <h4>Herman Hesse</h4>
+        <span class="post-meta">Added: Aug 1, 2015</span>
+      </div>
+    
+  </div>
+
 
 </div>
+  <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
 
-      </div>
+
     </div>
 
     <footer class="site-footer">
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">Your awesome title</h2>
+    <h2 class="footer-heading">Booklet</h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
-          <li>Your awesome title</li>
-          <li><a href="mailto:your-email@domain.com">your-email@domain.com</a></li>
+          <li>Booklet</li>
+          <li><a href="mailto:hello@alexanderkustov.com">hello@alexanderkustov.com</a></li>
         </ul>
       </div>
 
@@ -135,7 +176,17 @@
 
 </footer>
 
-
+    <script src="/vendor/js/jquery.min.js"></script>
+    <script src="/vendor/js/bootstrap.min.js"></script>
+    <script src="/vendor/js/index.js"></script>
+    <script>
+      (function(){
+        minigrid('.grid', '.grid-item', 5, null);
+        window.addEventListener('resize', function(){
+          minigrid('.container', '.grid-item');
+        });
+      })();
+    </script>
   </body>
 
 </html>

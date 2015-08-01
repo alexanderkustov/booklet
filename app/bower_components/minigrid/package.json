@@ -1,0 +1,29 @@
+{
+  "name": "minigrid",
+  "version": "1.3.0",
+  "description": "Minimal 2kb zero dependency cascading grid layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquea/minigrid.git"
+  },
+  "keywords": [
+    "min",
+    "mini",
+    "grid",
+    "cascading",
+    "layout",
+    "javascript",
+    "minimal",
+    "responsive"
+  ],
+  "author": "Henrique Alves <henriquea@gmail.com> (http://alves.im)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/henriquea/minigrid/issues"
+  },
+  "homepage": "https://github.com/henriquea/minigrid"
+}
